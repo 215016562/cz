@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="248,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
+        <Label Content="一号称" HorizontalAlignment="Left" Margin="79,104,0,0" VerticalAlignment="Top" Height="37" Width="90" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="1"/>
+        <Label Content="二号称" HorizontalAlignment="Left" Margin="248,104,0,0" VerticalAlignment="Top" Height="37" Width="90" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="1"/>
+        <Label Content="三号称" HorizontalAlignment="Left" Margin="433,104,0,0" VerticalAlignment="Top" Height="37" Width="90" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="1"/>
+        <Label Content="四号称" HorizontalAlignment="Left" Margin="623,104,0,0" VerticalAlignment="Top" Height="37" Width="90" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="1"/>
+        <RadioButton Content="连接" HorizontalAlignment="Left" Margin="97,170,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="连接" HorizontalAlignment="Left" Margin="646,170,0,0" VerticalAlignment="Top" />
+        <RadioButton Content="连接" HorizontalAlignment="Left" Margin="463,170,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="连接" HorizontalAlignment="Left" Margin="263,170,0,0" VerticalAlignment="Top"/>
+        <Button Content="设置" HorizontalAlignment="Left" Margin="94,57,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="设置" HorizontalAlignment="Left" Margin="623,69,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="设置" HorizontalAlignment="Left" Margin="448,65,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="4.961,0.513"/>
+        <Button Content="设置" HorizontalAlignment="Left" Margin="248,61,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="当前kg:" HorizontalAlignment="Left" Margin="169,223,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
